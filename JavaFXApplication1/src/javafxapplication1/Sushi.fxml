@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="400.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="javafxapplication1.SushiController">
+    <stylesheets>
+        <URL value="@sushi.css" />
+    </stylesheets>
+   <children>
+      <ButtonBar layoutX="159.0" layoutY="28.0" prefHeight="40.0" prefWidth="55.0" />
+      <ButtonBar layoutX="235.0" layoutY="168.0" prefHeight="40.0" prefWidth="75.0" />
+    <Button layoutX="32.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Drinks">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+    <Button layoutX="32.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Food">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Button>
+    <Button layoutX="32.0" layoutY="270.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Others">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+    <Button layoutX="32.0" layoutY="221.0" minWidth="68.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Desserts">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="213.0" fitWidth="248.0" layoutX="123.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@DIY+Sushi+Rolls.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="367.0" layoutX="40.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@website-design-preview-52351.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="111.0" layoutX="14.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@minesushikelowna.ca-new-website-design%20(3).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="111.0" layoutX="145.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@minesushikelowna.ca-new-website-design%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="111.0" layoutX="273.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@minesushikelowna.ca-new-website-design%20(5).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="32.0" layoutY="353.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Avail Now!">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="301.0" layoutY="353.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="Menu">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="163.0" layoutY="353.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Avail Now!">
+         <font>
+            <Font name="Baskerville Old Face" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
